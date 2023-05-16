@@ -1,5 +1,4 @@
-//분수의 덧셈
-
+//3.분수의 덧셈
 function solution(num1, denum1, num2, denum2) {
     // 분자
     let topNum = num1*denum2 + num2*denum1
@@ -18,7 +17,7 @@ function solution(num1, denum1, num2, denum2) {
     return [topNum/maximum, botNum/maximum]
 }
 
-//배열 두배 만들기
+//4.배열 두배 만들기
 function solution(numbers) {
     var answer = numbers.map((num) => num*2);
     return answer;
